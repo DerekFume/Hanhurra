@@ -1,0 +1,144 @@
+body{
+	padding: 0;
+	margin: 0;
+	color: #222222;
+	font-family: 'Luckiest Guy', cursive;
+}
+header {
+	background-image: url(imgStyle/forest.jpg);
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: cover; 
+}
+.container {
+	width: 930px;
+	height: fit-content;
+	margin: 0 auto;
+}
+div {
+	box-sizing: border-box;
+}
+.logo {
+	margin: 32 0 0 10;
+	float: left;
+}
+nav {
+	float: right;
+	margin-top: 50px;
+}
+section {
+	height: 600px;
+}
+.menu {
+	padding: 0;
+	margin: 0;
+	display: block;
+}
+.menu li {
+	float: left;
+	display: block;
+	margin-right: 41px;
+}
+.menu li a {
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: lighter;
+	font-size: 11px;
+	font-family: 'Handlee', cursive;
+}
+.stranger {
+	color: rgb(203, 189, 255);
+}
+.masterHead{
+	margin-top: 180px;
+	font-size: 40px;
+	color: white;
+	text-transform: uppercase;
+	text-align: center;
+}
+h1{
+	font-size: 75px;
+	color: rgb(12, 15, 39);
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 20px;
+	
+}
+.clearfix:after {
+	content: '';
+	display: table;
+	width: 100%;
+	clear: both;
+}
+.button {
+background: #042544;
+color: rgb(255, 230, 183);
+text-decoration: none;
+border-radius: 3px;
+display: block;
+width: 240px;
+padding: 20px 0;
+margin: 0 auto;
+text-align: center;
+font-weight: lighter;
+text-transform: uppercase;
+font-size: 20px;
+margin-top: 50px;
+font-family: 'Luckiest Guy', cursive;
+}
+.titels {
+padding-top: 115px;
+}
+.titels h2 {
+ font-size: 40px;
+ text-align: center;
+ text-transform: uppercase;
+}
+#paragraph_Description {
+font-size: 16px;
+text-align: center;
+}
+.section_Menu {
+	margin-top: 80px;
+}
+.services_Item {
+	width: 270px;
+	float: left;
+	text-align: center;
+}
+.services_Item:last-child {
+	float: right;
+}
+.services_Item:nth-child(2) {
+	margin-left: 60px;
+}
+.services_Item h3 {
+	font-size: 18px;
+	margin-bottom: 5px;
+}
+.services_Item p {
+font-size: 14px;
+color: #777777;
+line-height: 1.55em;
+}
+#services {
+	padding-bottom: 120px
+}
+#portfolio {
+background: #ececec;
+padding-bottom: 230px;
+}
+.works img {
+	float: left;
+}
+.works img:last-child {
+	float: right;
+}
+.works img:nth-child(2) {
+	margin-left: 29px;
+}
+.works {
+	margin-top: 70px
+}
